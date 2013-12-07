@@ -22,7 +22,7 @@ FB APP TEMPLATE
 	bower ?
 - see how to configure the autoloader to find files in app/lib/ folder => configure composer
 - exclude a External and a UFO folder from the .gitignore to import non PSR-0 classes and unikorn lib
-- create a namespaced wrapped for the Mobile_Detect class
+- create a namespaced wrapper for the Mobile_Detect class
 
 
 External PHP librairies proposal :
@@ -39,6 +39,7 @@ PHP librairies to developp :
 - AbstractModel
 - AbstractCollection
 - Templater
+- User auth
 
 
 file system proposal for app/ directory :
