@@ -28,17 +28,17 @@ FB APP TEMPLATE
 External PHP librairies proposal :
 ---------------------------------------------------------------
 
-Mobile_Detect (needs to be wrapped for use with composer and autoload)
-Monolog
-SwiftMailer
+- Mobile_Detect (needs to be wrapped for use with composer and autoload)
+- Monolog
+- SwiftMailer
 
 PHP librairies to developp :
 ---------------------------------------------------------------
 
-DbFactory (done - needs to be modified for use with composer)
-AbstractModel
-AbstractCollection
-Templater
+- DbFactory (done - needs to be modified for use with composer)
+- AbstractModel
+- AbstractCollection
+- Templater
 
 
 file system proposal for app/ directory :
