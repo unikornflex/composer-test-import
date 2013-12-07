@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c74ea630a06ba0014d11b97a08ff9de2",
+    "hash": "53fb78bdd8bd21611dbb5708b172136e",
     "packages": [
         {
             "name": "slim/slim",
@@ -50,6 +50,36 @@
                 "router"
             ],
             "time": "2013-11-29 20:33:36"
+        },
+        {
+            "name": "ufo/composer-test-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/unikornflex/composer-test-bundle.git",
+                "reference": "31f7259554bb9615715f53ffab7512a133ce08f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/unikornflex/composer-test-bundle/zipball/31f7259554bb9615715f53ffab7512a133ce08f4",
+                "reference": "31f7259554bb9615715f53ffab7512a133ce08f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "UFO": "src"
+                }
+            },
+            "description": "simple bundle to test composer",
+            "support": {
+                "source": "https://github.com/unikornflex/composer-test-bundle/tree/master",
+                "issues": "https://github.com/unikornflex/composer-test-bundle/issues"
+            },
+            "time": "2013-12-07 12:56:34"
         }
     ],
     "packages-dev": [
@@ -59,9 +89,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "ufo/composer-test-bundle": 20
+    },
     "platform": [
 
     ],
