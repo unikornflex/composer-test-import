@@ -8,8 +8,8 @@
 @import 'compass/reset';
 
 /* import project mixins */
-// @include _mixins';
-// @include _config';
+@import '_mixins';
+@import '_config';
 
 /* import project files */
 
